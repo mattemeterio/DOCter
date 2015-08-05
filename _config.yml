@@ -6,7 +6,7 @@ pygments: true
 
 # Title
 name: DC Open Source Playbook
-subtitle: Plays drawn from private and public best practices for open sourcing metropolitan government projects and data.
+subtitle:
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
@@ -27,25 +27,30 @@ logoalt:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Home
-  url: index.html
+- text: Play 1 - Understanding open source
+  url: play1.html
   internal: true
-- text: Play One - Understand why you’d want to open source code
-  url: example_page.html
+- text: Play 2 - Adopting an internal policy on code
+  url: play2.html
   internal: true
-- text: Example Page 2
-  url: example_page2.html
+- text: Play 3 - Sharing code internally and externally
+  url: play3.html
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
-  internal: false
-
+- text: Play 4 - Open sourcing a project
+  url: play4.html
+  internal: true
+- text: Play 5 - Developing a community and culture
+  url: play5.html
+  internal: true
+- text: Play 6 - Making it easy to contribute to your project
+  url: play6.html
+  internal: true
+- text: Play 7 - Opening datasets
+  url: play7.html
+  internal: true
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: DOCter
-  description: Jekyll template for docs
-  url: https://github.com/cfpb/DOCter
 
 # Style Variables
 brand_color: "#f4b752"
