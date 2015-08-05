@@ -5,8 +5,8 @@ markdown: kramdown
 pygments: true
 
 # Title
-name: DOCter
-subtitle: A Jekyll template for project documentation
+name: DC Open Source Playbook
+subtitle: Plays drawn from private and public best practices for open sourcing metropolitan government projects and data.
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
@@ -17,8 +17,8 @@ baseurl: '/DOCter'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Name
-  url: http://localhost:4000
+  name: Powered by OCTO
+  url: http://octo.dc.gov
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl:
@@ -30,8 +30,11 @@ navigation:
 - text: Home
   url: index.html
   internal: true
-- text: Example Page
+- text: Play One - Understand why you’d want to open source code
   url: example_page.html
+  internal: true
+- text: Example Page 2
+  url: example_page2.html
   internal: true
 - text: DOCter Repo
   url: https://github.com/cfpb/DOCter
@@ -45,4 +48,4 @@ repos:
   url: https://github.com/cfpb/DOCter
 
 # Style Variables
-brand_color: "#2cb34a"
+brand_color: "#f4b752"
